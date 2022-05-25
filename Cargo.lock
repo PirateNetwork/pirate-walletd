@@ -618,7 +618,7 @@ dependencies = [
 [[package]]
 name = "equihash"
 version = "0.1.0"
-source = "git+https://github.com/hhanh00/librustzcash.git?rev=1518b145f8ee67e144fa8337c7dfd4c8cff899c9#1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+source = "git+https://github.com/hhanh00/pirate-librustzcash.git?rev=a270edba8cc6752a124b7c8101510cbfdc1c492e#a270edba8cc6752a124b7c8101510cbfdc1c492e"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -3043,7 +3043,7 @@ dependencies = [
 [[package]]
 name = "zcash_client_backend"
 version = "0.5.0"
-source = "git+https://github.com/hhanh00/librustzcash.git?rev=1518b145f8ee67e144fa8337c7dfd4c8cff899c9#1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+source = "git+https://github.com/hhanh00/pirate-librustzcash.git?rev=a270edba8cc6752a124b7c8101510cbfdc1c492e#a270edba8cc6752a124b7c8101510cbfdc1c492e"
 dependencies = [
  "base64",
  "bech32",
@@ -3067,7 +3067,7 @@ dependencies = [
 [[package]]
 name = "zcash_note_encryption"
 version = "0.0.0"
-source = "git+https://github.com/hhanh00/librustzcash.git?rev=1518b145f8ee67e144fa8337c7dfd4c8cff899c9#1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+source = "git+https://github.com/hhanh00/pirate-librustzcash.git?rev=a270edba8cc6752a124b7c8101510cbfdc1c492e#a270edba8cc6752a124b7c8101510cbfdc1c492e"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -3081,7 +3081,7 @@ dependencies = [
 [[package]]
 name = "zcash_primitives"
 version = "0.5.0"
-source = "git+https://github.com/hhanh00/librustzcash.git?rev=1518b145f8ee67e144fa8337c7dfd4c8cff899c9#1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+source = "git+https://github.com/hhanh00/pirate-librustzcash.git?rev=a270edba8cc6752a124b7c8101510cbfdc1c492e#a270edba8cc6752a124b7c8101510cbfdc1c492e"
 dependencies = [
  "aes",
  "bitvec 0.20.4",
@@ -3109,7 +3109,7 @@ dependencies = [
 [[package]]
 name = "zcash_proofs"
 version = "0.5.0"
-source = "git+https://github.com/hhanh00/librustzcash.git?rev=1518b145f8ee67e144fa8337c7dfd4c8cff899c9#1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+source = "git+https://github.com/hhanh00/pirate-librustzcash.git?rev=a270edba8cc6752a124b7c8101510cbfdc1c492e#a270edba8cc6752a124b7c8101510cbfdc1c492e"
 dependencies = [
  "bellman",
  "blake2b_simd",

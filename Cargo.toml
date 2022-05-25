@@ -43,13 +43,13 @@ group = "0.9.0"
 tonic-build = "0.4.2"
 
 [dependencies.zcash_client_backend]
-git = "https://github.com/hhanh00/librustzcash.git"
-rev = "1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+git = "https://github.com/hhanh00/pirate-librustzcash.git"
+rev = "a270edba8cc6752a124b7c8101510cbfdc1c492e"
 
 [dependencies.zcash_primitives]
-git = "https://github.com/hhanh00/librustzcash.git"
-rev = "1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+git = "https://github.com/hhanh00/pirate-librustzcash.git"
+rev = "a270edba8cc6752a124b7c8101510cbfdc1c492e"
 
 [dependencies.zcash_proofs]
-git = "https://github.com/hhanh00/librustzcash.git"
-rev = "1518b145f8ee67e144fa8337c7dfd4c8cff899c9"
+git = "https://github.com/hhanh00/pirate-librustzcash.git"
+rev = "a270edba8cc6752a124b7c8101510cbfdc1c492e"

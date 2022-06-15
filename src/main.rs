@@ -23,7 +23,7 @@ struct Args {
     rescan: bool,
 }
 
-pub const NETWORK: Network = Network::TestNetwork;
+pub const NETWORK: Network = Network::MainNetwork;
 
 // They come from the config file
 //

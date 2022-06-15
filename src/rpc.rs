@@ -210,7 +210,7 @@ pub async fn sync_info(_request: Json<SyncInfoRequest>, config: &State<WalletCon
     let rep = client.get_lightd_info(Request::new(Empty {})).await.map_err(from_tonic)?.into_inner();
     let rep = SyncInfoResponse {
         target_height: rep.block_height as u32,
-        height: rep.estimated_height as u32,
+        height: rep.block_height as u32, // Pirate lightwalletd does not return estimate height
     };
     Ok(Json(rep))
 }

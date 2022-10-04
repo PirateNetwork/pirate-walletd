@@ -39,17 +39,14 @@ jubjub = "^0.6"
 ff = "^0.9"
 group = "0.9.0"
 
+zcash_client_backend = "0.5"
+zcash_primitives = "0.5"
+zcash_proofs = "0.5"
+
 [build-dependencies]
 tonic-build = "0.4.2"
 
-[dependencies.zcash_client_backend]
-git = "https://github.com/hhanh00/pirate-librustzcash.git"
-rev = "a270edba8cc6752a124b7c8101510cbfdc1c492e"
-
-[dependencies.zcash_primitives]
-git = "https://github.com/hhanh00/pirate-librustzcash.git"
-rev = "a270edba8cc6752a124b7c8101510cbfdc1c492e"
-
-[dependencies.zcash_proofs]
-git = "https://github.com/hhanh00/pirate-librustzcash.git"
-rev = "a270edba8cc6752a124b7c8101510cbfdc1c492e"
+[patch.crates-io]
+zcash_client_backend = {git = 'https://github.com/piratenetwork/librustzcash', rev = '9d1e981140893e213a70bce779b5d3241a37f3a2'}
+zcash_primitives = {git = 'https://github.com/piratenetwork/librustzcash', rev = '9d1e981140893e213a70bce779b5d3241a37f3a2'}
+zcash_proofs = {git = 'https://github.com/piratenetwork/librustzcash', rev = '9d1e981140893e213a70bce779b5d3241a37f3a2'}
